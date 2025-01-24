@@ -3,7 +3,6 @@ import IncomeChart from '@/app/ui/dashboard/income-chart';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import CardWrapper from '@/app/ui/dashboard/cards';
 import { poppins } from '@/app/ui/fonts';
-import { fetchCardData } from '@/app/lib/data';
 import { Suspense } from 'react';
 import { IncomeChartSkeleton, 
   LatestInvoicesSkeleton,

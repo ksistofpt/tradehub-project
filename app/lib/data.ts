@@ -9,7 +9,7 @@ import {
   Income,
 } from './definitions';
 import { formatCurrency } from './utils';
-import { unstable_noStore as noStore } from 'next/cache'; 
+import { unstable_noStore as noStore } from 'next/cache';
 
 /**
  * Fetches income data from the database.

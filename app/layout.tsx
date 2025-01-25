@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { poppins } from "./ui/fonts";
+import { poppins } from './ui/fonts';
 
 export default function RootLayout({
   children,
@@ -8,7 +8,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-black antialiased`}>{children}</body>
+      <body className={`${poppins.className} bg-black antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }

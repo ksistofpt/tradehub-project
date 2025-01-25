@@ -6,6 +6,7 @@ import { fetchIncome } from '@/app/lib/data';
 
 export default async function IncomeChart() {
   const income = await fetchIncome();
+
   const chartHeight = 350;
   // Attention! Uncomment this section when you reach this stage in the course.
 
@@ -53,7 +54,7 @@ export default async function IncomeChart() {
           <CalendarDaysIcon className="h-5 w-5 text-white" />
           <h3 className="ml-2 text-sm text-white ">This year</h3>
         </div>
-      </div> 
+      </div>
     </div>
   );
 }
